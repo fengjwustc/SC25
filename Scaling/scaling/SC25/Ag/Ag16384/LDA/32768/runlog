@@ -1,0 +1,11 @@
+dgdft -in [inFile]
+in:             Input file (default: config.yaml)
+RTTDDFT
+clean WaveFunction Groud
+Reduce LocalBasis
+iterMax:10
+WARN: [vn014968] received duplicat pkts, rqn = 101, src_node_guid = 0x3dd3, src_sqn = 77, win_msn = 0x80060023, len = 128, imm_data = 0, retry_cnt = 63, ft_mask = 0
+WARN: [vn013410] received duplicat pkts, rqn = 101, src_node_guid = 0x3dd3, src_sqn = 77, win_msn = 0x8006001a, len = 128, imm_data = 0, retry_cnt = 63, ft_mask = 0
+WARN: [vn013933] received duplicat pkts, rqn = 49, src_node_guid = 0x3dd3, src_sqn = 73, win_msn = 0x80060007, len = 128, imm_data = 0, retry_cnt = 63, ft_mask = 0
+WARN: [vn015796] received duplicat pkts, rqn = 48, src_node_guid = 0x3dd3, src_sqn = 69, win_msn = 0x80060029, len = 128, imm_data = 0, retry_cnt = 63, ft_mask = 0
+[6860929 ## 2025-03-13/01:25:09] receive request of kill job(bkill).

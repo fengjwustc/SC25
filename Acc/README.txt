@@ -1,0 +1,4 @@
+This directory contains all accuracy test results corresponding to the systems evaluated in the manuscript. The results are organized into two categories: those from PWDFT-TDDFT and those from DGTDDFT. The two “Dipole” files contain the raw dipole moment data recorded at each time step, while the “Fig“  includes the original MATLAB-generated figures.
+
+All accuracy plots presented in the manuscript can be fully reproduced using MATLAB's plot function.
+Note: All dipole moments should be shifted by subtracting their values at time zero, as the origin of coordinates may differ between simulations. Only the change in dipole moment carries physical significance.

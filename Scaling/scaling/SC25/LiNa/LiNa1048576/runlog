@@ -1,0 +1,8 @@
+dgdft -in [inFile]
+in:             Input file (default: config.yaml)
+WARN: [vn024054] [2025-04-02 20:06:13] resend wqe, sqn = 49, status = 0x1, opcode = 0, retry_cnt = 63, wrid = 0x2dc4, src_guid = 0x5df7, dst_guid = 0x6cef, dst_cpu = 27886
+WARN: [vn069110] [2025-04-02 20:06:18] resend wqe, sqn = 22, status = 0x1, opcode = 0, retry_cnt = 63, wrid = 0x2635, src_guid = 0x10df7, dst_guid = 0x6cb1, dst_cpu = 27824
+clean WaveFunction Groud
+Reduce LocalBasis
+iterMax:100
+[6936547 ## 2025-04-02/20:21:21] receive request of kill job(bkill).

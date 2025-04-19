@@ -1,0 +1,2299 @@
+mpisize = 16384               
+mpirank = 0                   
+Time for reading the raw input file is 0.000277997 [s]
+
+UPF_File is not defined. 
+Use the old format of pseudopotential by defininig PeriodTable in the input file.
+This option will become deprecated in the future
+Time for reading the input file is 7.35967 [s]
+
+*********************************************************************
+Common information
+*********************************************************************
+
+Super cell                           = +7.600000000000e+00 +4.657218418480e+02 +1.490309890000e+04 
+Grid Wavefunction                    = 16                  1024                32768               
+Grid Density                         = 16                  1024                32768               
+Mixing dimension                     = 1                   
+Mixing variable                      = density             
+Mixing DFT type                      = anderson            
+Mixing Hybrid DGDFT type             = anderson            
+Mixing Steplength                    = +4.000000000000e-01
+DG InnerSCF Mixing variable          = density             
+DG OuterSCF Mixing variable          = density             
+DG DFT OuterSCF Tolerance            = +1.000000000000e-07
+DG DFT OuterSCF Energy Tolerance     =+1.000000000000e-06
+DG DFT OuterSCF MinIter              = 3                   
+DG DFT OuterSCF MaxIter              = 1                   
+DG DFT InnerSCF Tolerance            = +1.000000000000e-07
+DG DFT InnerSCF MinIter              = 1                   
+DG DFT InnerSCF MaxIter              = 1                   
+DG Hybrid InnerSCF Tolerance         = +1.000000000000e-06
+DG Hybrid InnerSCF MinIter           = 1                   
+DG Hybrid InnerSCF MaxIter           = 1                   
+DG Hybrid OuterSCF MinIter           = 3                   
+DG Hybrid OuterSCF MaxIter           = 2                   
+DG Hybrid OuterSCF Tolerance         = +1.000000000000e-06
+DG Hybrid OuterSCF Energy Tolerance  =+1.000000000000e-06
+DG Hybrid ALBs MaxIter               = 1                   
+DG Hybrid ALBs Tolerance             = +1.000000000000e-06
+Temperature                          = +3.000000000000e+02[K]   
+au2K                                 = +3.157746700000e+05
+Tbeta                                = +1.052582233333e+03
+Temperature2                          = +3.000000000000e+02[K]   
+Extra states                         = 0                   
+Smearing scheme                      = FD                  
+PeriodTable File                     = HGH_LiNa.bin        
+Pseudo Type                          = HGH                 
+PW Solver                            = LOBPCG              
+XC Type                              = XC_HYB_GGA_XC_HSE06 
+Hybrid ACE                           = false   
+Hybrid DF                            = false   
+DGHF ISDF                            = false   
+DGHF ISDF Num Mu                     = +1.200000000000e+01
+Hybrid Active Init                   = false   
+Hybrid Mixing Type                   = nested              
+Hybrid DF Num Mu                     = +6.000000000000e+00
+Hybrid DF Num GaussianRandom         = +2.000000000000e+00
+Hybrid DF Tolerance                  = +1.000000000000e-20
+SCF Outer Tol                        = +1.000000000000e-08
+SCF Outer MaxIter                    = 30                  
+SCF Free Energy Per Atom Tol         = +1.000000000000e-06
+Eig Min Tolerence                    = +1.000000000000e-03
+Eig Tolerence                        = +1.000000000000e-13
+Eig MaxIter                          = 1                   
+Eig Tolerance Dyn                    = false   
+Num unused state                     = 0                   
+EcutWavefunction                     = +2.000000000000e+01
+Density GridFactor                   = +1.000000000000e+00
+Use Atom Density                     = false   
+Use VLocal                           = false   
+RestartDensity                       = false   
+RestartWfn                           = false   
+OutputDensity                        = false   
+OutputPotential                      = false   
+Number of Extra Electron             = 0                   
+
+*********************************************************************
+DGDFT information
+*********************************************************************
+
+Penalty Alpha                        = +2.000000000000e+01
+Element size                         = 1                   16                  512                 
+Wfn Elem GridSize                    = 16                  64                  64                  
+Rho Elem GridSize                    = 16                  64                  64                  
+LGL Grid size                        = 16                  64                  64                  
+LGL GridFactor                       = +1.000000000000e+00
+SVD Basis Tol                        = +1.000000000000e-20
+SCF Inner Tol                        = +1.000000000000e-04
+SCF Inner MaxIter                    = 1                   
+Solution Method   = diag                
+Number of procs for ScaLAPACK        = 16384               
+Number of procs for ScaLAPACK (PW)   = 2                   
+ScaLAPACK block                      = 32                  
+OutputALBElemLGL                   = false   
+OutputALBElemUniform               = false   
+OutputWfnExtElem                   = false   
+OutputPotExtElem                   = false   
+OutputHMatrix                      = false   
+Force each step (deprecated)       = false   
+A Posteriori error each step       = false   
+
+NumAtom = 262144              
+Atom Type and Coordinates (possibly after shifting into unit cell)
+
+
+ mpisizeAll  = 16384
+ mpirankAll  = 0
+ mpisizeRow  = 2
+ mpirankRow  = 0
+ mpisizeCol  = 8192
+ mpirankCol  = 0
+ dm.comm 1140850688
+ dm.rowComm -2080374782
+ dm.colComm -2080374781
+ Init 2D MFFT 
+ numGrid =16 1024 32768 
+ p_row   = 16
+ p_col   = 512
+ dm.colComm 0x50000016d4fc
+ mpirank-2dfft 0
+ cxsize 16 64 64 
+ cysize 1 1024 64 
+ czsize 1 2 32768 
+Time for setting up the periodic table is 0.365116714289 [s]
+
+ number of atoms in extended elements 288
+ numStateTotal 128
+XC_GGA_XC_PBE  XId_ CId_ = 101 130
+
+XC_HYB_GGA_XC_HSE06  XCId = 428
+
+Number of electrons in extend element        = 288                 
+Number of Occupied States                    = 144                 
+Computing the local pseudopotential
+Sum of Pseudocharge                          = +2.880549850553e+02
+Number of Occupied States                    = 144                 
+After adjustment, Sum of Pseudocharge        = +2.880000000000e+02
+Computing the non-local pseudopotential
+Total number of nonlocal pseudopotential = 1296                
+Time for nonlocal pseudopotential 6.71109616857
+computed exxDiv_ = 0
+Hybrid mixing parameter  = 0.25
+Hybrid screening length = 0.106
+Time for setting up the exchange for the extended Hamiltonian  part = 0.0733035042867 [s]
+Time for setting up extended element is 0.0740581985738 [s]
+
+localNz        = 4
+localNzStart   = 0
+numAllocLocal  = 524288
+numGridLocal   = 65536
+numGridTotal   = 536870912
+ numElem = 1 16 512 
+numGridLocal   = 65536
+numGridTotal   = 536870912
+ numGrid = 16 1024 32768 
+ numGridElem = 16 64 64 
+  localNzStart 0
+  localNyStart 0
+  init complete 
+Time for Fourier grid weight = 
+Time for setting up Distributed Fourier is 1.50317507762 [s]
+XC_HYB_GGA_XC_HSE06  XCId = 428
+XC_HYB_GGA_XC_HSE06  XId = 101
+XC_HYB_GGA_XC_HSE06  CId = 130
+
+Number of electrons in extend element        = 262144              
+Number of Occupied States                    = 131072              
+
+Prepare the integration weights for constructing the DG matrix.
+The number of atom < Rzero = 71
+
+Atomic pseudocharge computed.
+Sum of Pseudocharge                          = +2.621940486192e+05
+numOccupiedState                             = 131072              
+After adjustment, sum of Pseudocharge        = +2.621440000000e+05
+ Init new FFT Grid for HFX construction 
+ numGridTotalR2CHFX 331776
+computed DG exxDiv_ = 0
+Hybrid mixing parameter  = 0.25
+Hybrid screening length = 0.106
+Time for setting up the DG Hamiltonian is 25.7787476471 [s]
+
+Generating initial density through linear combination of pseudocharges.
+Sum density.      = 5475002.62112
+Volum: 52749309.884
+NumGridTOtalFine      = 536870912
+Initial density. Sum of density      = +5.379367803737e+05
+Initial random basis functions in the extended element.
+Initial basis functions with random guess.
+Time for setting up SCFDG is 6.75093130905 [s]
+
+*********************************************************************
+Starting regular DGDFT SCF iteration.
+*********************************************************************
+
+XC_GGA_XC_PBE  XId_ CId_ = 101 130
+Re-calculate PBE-XC for Hybrid DFT 
+input Copy times: 0.000405450951803
+forward FFT times: 0.0995975623809
+direction: 0 back ik times:0.00581350809443
+direction: 0 backward FFT times:0.0303723285688
+direction: 1 back ik times:0.00677973666825
+direction: 1 backward FFT times:0.0318018052385
+Time for calculating gradient of density is 0.181119276192 [s]
+
+call libxc for Exc -117215.309277
+Time for calculating XC is 0.248530653334 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0831432690466
+Time for calculating Hartree is 0.0863895795228 [s]
+
+Time for calculating Vtot is 0.00135674666672 [s]
+
+
+*********************************************************************
+Outer SCF iteration # 1
+*********************************************************************
+
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+
+Time Comm: 0.0189330533321
+
+Time Loop neighborhood: 0.00353469571201
+
+Time Modify: 0.000163128570421
+
+Time Inter y: 0.000979971428023
+
+Time Inter: 0.00712634523734
+OuterSCF:: Time for updating the local potential in the extended element and the element is 0.0346287647626 [s]
+
+ The current tolerance used by the eigensolver is 1e-13
+ The target number of converged eigenvectors is 128
+
+
+After 1 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 1.05113863689
+
+The minimum norm of the residual is 0.516169368189
+
+
+ Eigensolver time = 45.4596183719 [s]
+
+ALB calculation in extended element 0 0 0 
+
+ Max residual of basis = +1.051138636888e+00
+ Avg residual of basis = +5.231072379170e-01
+
+Time for interpolating basis = 0.491837943333 [s]
+Number of significant SVD basis = 128
+Time for SVD of basis = 0.376418330001 [s]
+
+Time for generating ALB function is 46.3361263814 [s]
+
+
+ AlltoallForward: Changing distribution of local basis functions ...  Done. ( 0.0961767261906 s)  InnermixVariable_ density
+ mixType_ anderson
+
+Inner SCF iteration #1 starts.
+
+Time for constructing the DG matrix is 64.0099907029 [s]
+
+
+ Estimating the spectral bounds ... key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+
+ Ritz values in estimator here : 6
+ -3.077503132095e+00 1.215468426523e-01 4.060091268953e+00 9.267183792561e+00 1.379589221142e+01 1.746516581177e+01
+
+ Upper bound of spectrum = 2.342840337994e+01
+ Done. ( 4.090624142918e-02 s.)
+ Initializing eigenvectors randomly on first SCF step ... 
+ Total time for diag DG matrix via Chebyshev filtering is 4.268514875239e+00 [s]
+
+Call for Full DM After DIAG 
+InnerSCF: DIAG Time for computing full density matrix 4.268514875239e+00 [s]
+
+InnerSCF: Time for computing harris energy 3.486769714073e-02 [s]
+
+
+ Using alternate routine for electron density: 
+
+ Forming diagonal blocks of density matrix ...  Done. ( 1.217180471431e-01 s) 
+
+ Sum Rho on LGL grid (raw data) = +2.621440000000e+05
+ Sum Rho on uniform grid (interpolated) = +2.621910715099e+05
+
+InnerSCF: Time for computing density 1 in the global domain is 2.77853264143 [s]
+
+norm(MixDif)          = +6.497730018225e+02
+norm(MixOld)          = +6.602969241325e+02
+norm(out-in)/norm(in) = +9.840618335095e-01
+Time for computing the SCF residual is 0.00265218190543 [s]
+
+ anderson density mixing 
+InnerSCF: Time for mixing is 0.00276640714219 [s]
+
+Numer of Occupied State 131072              
+Rho factor after mixing (raw data) = +9.999999999997e-01
+Sum Rho after mixing (raw data)    = +2.621440000001e+05
+
+input Copy times: 0.000404344762501
+forward FFT times: 0.035376932381
+direction: 0 back ik times:0.00671290904938
+direction: 0 backward FFT times:0.040976516666
+direction: 1 back ik times:0.00670782333327
+direction: 1 backward FFT times:0.0349228471423
+Time for calculating gradient of density is 0.131595621904 [s]
+
+call libxc for Exc -75812.6942065
+Exc after DIAG -75812.6942065
+Time for computing Exc in the global domain is 0.330805551432 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0713975257167
+InnerSCF: Time for computing Vhart in the global domain is 0.074689770001 [s]
+
+InnerSCF: Time for computing KSEnergy in the global domain is 0.0364467766667 [s]
+
+
+EfreeHarris       = +5.043348833052e+06[au]  
+Etot              = +6.537752334119e+06[au]  
+Efree             = +6.537752334119e+06[au]  
+Ekin              = -1.427754188800e+05[au]  
+Ehart             = -7.043722198550e+06[au]  
+EVxc              = -9.778370792881e+04[au]  
+Exc               = -7.581269420652e+04[au]  
+EVdw              = +0.000000000000e+00[au]  
+Eself             = +3.851654592734e+05[au]  
+EIonSR            = +0.000000000000e+00[au]  
+Ecor              = +6.680527752999e+06[au]  
+Fermi             = +1.107100000000e-01[au]  
+HOMO#            = +3.012572571293e+00[eV]  
+Time for this inner SCF iteration = 71.7479709624 [s]
+Time for all inner SCF iterations is 71.7502167719 [s]
+
+OUTERSCF: EfreeHarris                 = +5.043348833052e+06
+OUTERSCF: Efree                       = +6.537752334119e+06
+OUTERSCF: norm(out-in)/norm(in) = +3.936247334038e-01
+OUTERSCF: Efree diff per atom   = +5.700696949258e+00
+
+Time for this SCF iteration = 118.283725263 [s]
+
+Total time for all SCF iterations = 118.286681775 [s]
+Total number of outer SCF steps (SCF not converged) = 1
+
+*********************************************************************
+Starting Hybrid DFT SCF iteration.
+*********************************************************************
+
+XC_HYB_GGA_XC_HSE06  XCId = 428
+XC_HYB_GGA_XC_HSE06  XId_ CId_ = 101 130
+Re-calculate XC for Hybrid DFT 
+input Copy times: 0.00040743761565
+forward FFT times: 0.0313792023808
+direction: 0 back ik times:0.0067144252389
+direction: 0 backward FFT times:0.0372692233359
+direction: 1 back ik times:0.00671158333353
+direction: 1 backward FFT times:0.0373506909527
+Time for calculating gradient of density is 0.126660610953 [s]
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00366536000001 [s]
+
+ Time for calling pbexsr 0.00623751476451 [s]
+
+ Time for calling the HSE XC kernel is 0.0133692595264 [s]
+
+ Time XC copy:  0.000753994285333
+ Time XC Forward:  0.0366703176187
+ Time XC ECUT:  0.00116741238162
+ Time XC Backward:  0.0428734447596
+ Time XC copy Vxc_add:  0.000292303811875
+ Time XC copy:  0.000755797620513
+ Time XC Forward:  0.0351689380986
+ Time XC ECUT:  0.00116593238272
+ Time XC Backward:  0.0383906204734
+ Time XC copy Vxc_add:  0.000326122379192
+ Time XC allreduce:  0.0007091309526
+ Time XC localVxc+=Vxc_add:  0.000267536190222
+call libxc for Exc -1775.02034361
+Time for calculating XC is 0.186263609525 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0733967581
+Time for calculating Hartree is 0.076688668094 [s]
+
+Time for calculating Vtot is 0.00135985190354 [s]
+Init hybrid mixing parameters 
+
+*********************************************************************
+Hybrid DFT Outer SCF iteration # 1
+*********************************************************************
+
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+
+Time Comm: 0.0207202157144
+
+Time Loop neighborhood: 0.00348801905056
+
+Time Modify: 0.000160832383699
+
+Time Inter y: 0.000978728570772
+
+Time Inter: 0.00724528714272
+OuterSCF:: Time for updating the local potential in the extended element and the element is 0.0370739657119 [s]
+
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+InnerSCF: Recalculate density matrix for diag method 
+The current tolerance used by the eigensolver is 1e-13
+The target number of converged eigenvectors is 128
+
+Time for updating Phi related variable is 0.0925495404772 [s]
+ExtElem Fock energy 1    = -9.391605797610e-01[au]  
+Time for computing the EXX energy is 238.350835383 [s]
+
+*********************************************************************
+Phi iteration # 1
+*********************************************************************
+
+
+After 1 iterations, LOBPCG did not converge. 
+The maximum norm of the residual is 2.07601507597
+
+The minimum norm of the residual is 0.948345406633
+
+
+Eigensolver time = 533.277431591 [s]
+Time for computing occupation rate in PWDFT is 3.25799992424e-05 [s]
+
+Time for updating Phi related variable is 0.0924978604744 [s]
+
+ExtElem Fock energy       = -2.043062067856e+00[au]  
+dExx for PWDFT            = +5.403171570082e-01[au]  
+
+ALB calculation in extended element 0 0 0 
+
+Max residual of basis = +2.076015075973e+00
+Avg residual of basis = +2.014149987011e+00
+
+Time for interpolating basis = 0.49199651619 [s]
+Number of significant SVD basis = 128
+Time for SVD of basis = 0.390702763332 [s]
+
+Time for generating ALB function is 1011.05767849 [s]
+Time for computing density in the global domain is 5.88087531762 [s]
+
+Generate New DM for this Outer SCF 
+
+ Sum Rho on LGL grid (raw data) = +3.253647549956e+05
+ Sum Rho on uniform grid (interpolated) = +3.257005879962e+05
+
+ Time for computing density in the global domain is 3.85066878334 [s]
+
+ HFX::  Collect the local ALBs of neighbor elements for HFX matrix construction 
+ HFX: Time for LGL2Unifom ALBs = 0.796307414763 [s]
+ HFX: Time for neighbor local ALBs communcation = 6.39084647762 [s]
+key 0 0 0 
+4194304 LocalBasis.m  65536 LocalBasis.n  64
+key 0 0 1 
+4194304 LocalBasis.m  65536 LocalBasis.n  64
+key 0 0 511 
+4194304 LocalBasis.m  65536 LocalBasis.n  64
+key 0 1 0 
+4194304 LocalBasis.m  65536 LocalBasis.n  64
+key 0 1 1 
+4194304 LocalBasis.m  65536 LocalBasis.n  64
+key 0 1 511 
+4194304 LocalBasis.m  65536 LocalBasis.n  64
+key 0 15 0 
+4194304 LocalBasis.m  65536 LocalBasis.n  64
+key 0 15 1 
+4194304 LocalBasis.m  65536 LocalBasis.n  64
+key 0 15 511 
+4194304 LocalBasis.m  65536 LocalBasis.n  64
+
+ Rotating the eigenvectors from the previous step ... 
+ AlltoallForward: Changing distribution of local basis functions ...  Done. ( 0.103799596192 s)
+ Computing the overlap matrix using basis sets on LGL grid ...  Done. ( 0.0301288219052 s)
+ Rotating the eigenvectors using overlap matrix ...  Done. ( 0.032828856667 s)
+  InnermixVariable_ densitymatrix
+ mixType_ anderson
+
+Inner SCF iteration #1 starts.
+
+Time for constructing the DG matrix is 3.48569301423e-07 [s]
+
+ Start HFX calculations 
+ HFX: Time for ALB HFX init = 0.0614813033353 [s]
+ Time for iterGemmT      = 9  timeGemmT      = 0.068619839516
+ Time for iterRow2Col    = 18  timeTrans      = 1.74344712619
+ Time for iterAllreduce  = 9  timeAllreduce  = 0.500672005233
+ Time for iterCopy       = 9  timeCopy       = 0.0247740747582
+ HFX: Time for Dpsi 2.75303856381 [s]
+ Time for iterFFT      = 16384  timeFFT      = 136.85874223
+ Time for iterTensor   = 73728  timeTensor   = 26.2339447306
+ Time for iterMap      = 8192  timeMap      = 5.02889341676
+ Time for iterBcast    = 132  timeBcast    = 0.274121642411
+ Time for iterOther    = 82048  timeOther    = 15.2361670604
+ HFX: Time for ALB pair potential with FFT poisson solver 227.089881534 [s]
+ Time for iterGemmT     = 18  timeGemmT      = 0.262398871422
+ Time for iterRow2Col   = 18  timeTrans      = 1.7565127519
+ Time for iterAllreduce = 10  timeAllreduce  = 0.00244013285192
+ Time for iterAxpy      = 9  timeAxpy       = 0.000823311427666
+ Time for iterOther     = 9  timeOther      = 2.53114230873e-05
+ HFX: Time for HFX matrix and energy 2.86393429143 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -2.360348394316e+03[au]  
+
+ HFX: Time for HFX without interElement communication 233.653277262 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 233.655672605 [s]
+
+
+ Estimating the spectral bounds ... key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+
+ Ritz values in estimator here : 6
+ -2.851811211825e+00 8.246424833489e-02 4.538359711146e+00 9.293062204697e+00 1.364705389844e+01 1.717738493863e+01
+
+ Upper bound of spectrum = 2.275783880703e+01
+ Done. ( 6.282873476448e-02 s.)
+ Initializing eigenvectors randomly on first SCF step ... 
+ Total time for diag DG matrix via Chebyshev filtering is 4.291959289523e+00 [s]
+
+Call for Full DM After DIAG 
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+InnerSCF: Recalculate density matrix for diag method 
+InnerSCF: DIAG Time for computing full density matrix 2.002562539521e+00 [s]
+
+InnerSCF: Time for computing harris energy 5.408512000213e-02 [s]
+
+
+ Using alternate routine for electron density: 
+
+ Forming diagonal blocks of density matrix ...  Done. ( 1.214962471422e-01 s) 
+
+ Sum Rho on LGL grid (raw data) = +2.621440000000e+05
+ Sum Rho on uniform grid (interpolated) = +2.626427754792e+05
+
+InnerSCF: Time for computing density 1 in the global domain is 5.34948264476 [s]
+
+Inner MaxDiff(out-in) = +3.465224820032e-01
+Time for computing the SCF residual is 0.00341746285631 [s]
+
+ anderson densitymatrix mixing 
+InnerSCF: Time for mixing is 0.00629703190498 [s]
+InnerSCF: Recalculate density from mixed density matrix 
+
+ Sum Rho on LGL grid (raw data) = +4.049340529974e+05
+ Sum Rho on uniform grid (interpolated) = +4.055345731810e+05
+
+
+Numer of Occupied State 131072              
+Rho factor after mixing (raw data) = +1.000000000000e+00
+Sum Rho after mixing (raw data)    = +2.621440000000e+05
+
+input Copy times: 0.000408328571211
+forward FFT times: 0.0392047852365
+direction: 0 back ik times:0.00675053095256
+direction: 0 backward FFT times:0.0393074861895
+direction: 1 back ik times:0.00672229618795
+direction: 1 backward FFT times:0.0372908338104
+Time for calculating gradient of density is 0.135808025716 [s]
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00343527428777 [s]
+
+ Time for calling pbexsr 0.00546866856894 [s]
+
+ Time for calling the HSE XC kernel is 0.0123302619031 [s]
+
+ Time XC copy:  0.000719137144188
+ Time XC Forward:  0.0355714433317
+ Time XC ECUT:  0.00116766047722
+ Time XC Backward:  0.0390249528573
+ Time XC copy Vxc_add:  0.000294729525194
+ Time XC copy:  0.000712988094165
+ Time XC Forward:  0.0344506023794
+ Time XC ECUT:  0.00116382666602
+ Time XC Backward:  0.0374750628544
+ Time XC copy Vxc_add:  0.000296192854876
+ Time XC allreduce:  0.000796127620561
+ Time XC localVxc+=Vxc_add:  0.000215811429371
+call libxc for Exc -607.258179671
+Exc after DIAG -607.258179671
+Time for computing Exc in the global domain is 0.179231357619 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0702212290489
+InnerSCF: Time for computing Vhart in the global domain is 0.0734881371427 [s]
+
+InnerSCF: Time for computing KSEnergy in the global domain is 0.0392645271422 [s]
+
+
+EfreeHarris       = +4.840875431546e+06[au]  
+Etot              = +7.395208210689e+06[au]  
+Efree             = +7.395208210689e+06[au]  
+Ekin              = -1.427754188800e+05[au]  
+Ehart             = -7.874396724919e+06[au]  
+EVxc              = -4.699927370890e+04[au]  
+Exc               = -6.072581796707e+02[au]  
+EVdw              = +0.000000000000e+00[au]  
+Eself             = +3.851654592734e+05[au]  
+EIonSR            = +0.000000000000e+00[au]  
+Ecor              = +7.537983629569e+06[au]  
+Fermi             = +1.107100000000e-01[au]  
+HOMO#            = +3.012572571293e+00[eV]  
+Time for this inner SCF iteration = 251.097389657 [s]
+Time for all inner SCF iterations is 251.099648201 [s]
+
+OUTERSCF: EfreeHarris                 = +4.840875431546e+06
+OUTERSCF: Efree                       = +7.395208210689e+06
+OUTERSCF: norm(out-in)/norm(in) = +3.004510694792e-02
+OUTERSCF: Efree diff per atom   = +9.744006268095e+00
+
+Time for this SCF iteration = 1528.04008842 [s]
+RTTDDFT-Hybrid
+ HFX:: Interpolation separative density fitting 
+       for the ALB pairs of each element. 
+ISDF: Time for LGL2Unifom ALBs = 0.769762956188 [s]
+ ISDF: Kmeans for interpolation points 
+After Setup: 0.0171892619037[s]
+After Initialization: 0.018262194284[s]
+
+Converged in 30 iterations.
+After iteration: 45.7926597409[s]
+Dist time: 29.6059743129[s]
+Min time: 16.1123387633[s]
+Comm time: 0.0053538666798[s]
+core0 time: 0.00244152189043[s]
+ ISDF: Time for Kmeans alone is 46.4783759629[s]
+
+ISDF: Time for interpolation points by Kmeans = 46.5203869371 [s]
+ ISDF: Least-square for interpolation vectors 
+ Time for iterGemmT     = 2  timeGemmT      = 0.0688301366645
+ Time for iterPotrf     = 1  timePotrf      = 0.871787785716
+ Time for iterTrsm      = 1  timeTrsm       = 0.358816197146
+ Time for iterRow2Col   = 2  timeTrans      = 1.46596119762
+ Time for iterAllreduce = 1  timeAllreduce  = 0.00155610285947
+ Time for iterCopy      = 1  timeCopy       = 0.00191588238158
+ Time for iterOther     = 4  timeOther      = 0.122321736191
+ ISDF: MPI Time for IVs 2.98006260524 [s]
+ISDF: Time for interpolation vectors = 2.98577844762 [s]
+DGHF: ISDF Time for ALB-pairs = 50.7606258038 [s]
+Time for neighbor local auxbasis and basisISDF communcation = 38.0207136362 [s]
+ ISDF: Initialized time for auxiliary matrix = 0.740639949046 [s]
+ Time for iterFFT        = 1536  timeFFT      = 12.8278579976
+ Time for iterMap        = 7680  timeMap      = 5.21865661203
+ Time for iterGemmT      = 9  timeGemmT    = 0.965979217137
+ Time for iterRow2Col    = 18  timeTrans    = 24.1178140476
+ Time for iterAllreduce  = 9  timeAllreduce  = 0.558389691421
+ Time for iterOther      = 7680  timeOther      = 1.42222632538
+ ISDF: Time for auxiliary Coulomb Matrix with FFT 56.25124284 [s]
+End Hybrid HFX Copy 
+End Hybrid HFX Copy 
+End Hybrid HFX Copy 
+End Hybrid HFX Copy 
+End Hybrid HFX Copy 
+End Hybrid HFX Copy 
+End Hybrid HFX Copy 
+End Hybrid HFX Copy 
+End Hybrid HFX Copy 
+
+
+BasisLGLCpx: m: 65536n: 128
+
+
+Dx: -278703.472954         Dy: -232544.88078         Dz -236029.135582          
+111
+222
+333
+LocalISDF.m_: 1536 localISDF.n()  64
+numMu_: 1536 numBasisTotal: 128
+444
+555
+666
+key 0 0 0 1 
+key 1 0 0 511 
+key 2 0 1 0 
+key 3 0 1 1 
+key 4 0 1 511 
+key 5 0 15 0 
+key 6 0 15 1 
+key 7 0 15 511 
+
+direction: 0 back ik times:0.00672081333323
+direction: 0 backward FFT times:0.0284884642861
+direction: 1 back ik times:0.0067337623841
+direction: 1 backward FFT times:0.0286497176203
+GradDensity times: 0.0752236476183
+
+
+Allreduce Time: 0.000363447143172
+
+Allreduce Time: 0.00356903333159
+DM construct times: 0.796292381903
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00149363905075 [s]
+
+ Time for calling pbexsr 9.35952375585e-05 [s]
+
+ Time for calling the HSE XC kernel is 0.00521998095064 [s]
+
+ Time XC copy:  0.000754869048251
+ Time XC Forward:  0.0362518957118
+ Time XC ECUT:  0.00116749618974
+ Time XC Backward:  0.0411285719056
+ Time XC copy Vxc_add:  0.000298092378216
+ Time XC copy:  0.00074958476398
+ Time XC Forward:  0.0361877404757
+ Time XC ECUT:  0.0011663919031
+ Time XC Backward:  0.0375482728559
+ Time XC copy Vxc_add:  0.000296814763715
+ Time XC allreduce:  0.000642520000838
+ Time XC localVxc+=Vxc_add:  0.000209639045352
+call libxc for Exc 0
+ Time for computing Exc in the global domain is 0.175519931905 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0715600085714
+ Time for computing Vhart in the global domain is 0.0748380195255 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00203213809436 [s]
+
+ Fourdot: times 0.044829085713
+ Gemm: times 0.0290676676195
+ times Allreduce 0.000234189046751
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.169952847144 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.011001696661
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000410337619542
+ Time for iterAxpy      = 1  timeAxpy       = 8.5578096332e-05
+ Time for iterOther     = 1  timeOther      = 2.53095277003e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.121269605715 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083265625e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.127680076192 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.129001727619 [s]
+
+Comm already end in DM compute -27641.8301017
+
+direction: 0 back ik times:0.00622239523727
+direction: 0 backward FFT times:0.0356447928571
+direction: 1 back ik times:0.00627471476037
+direction: 1 backward FFT times:0.033325845714
+GradDensity times: 0.0860075609526
+
+
+Allreduce Time: 0.00197741571537
+
+Allreduce Time: 0.00534740428338
+DM construct times: 0.818905801429
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00349005476164 [s]
+
+ Time for calling pbexsr 0.00652622761845 [s]
+
+ Time for calling the HSE XC kernel is 0.0133979504753 [s]
+
+ Time XC copy:  0.000754103333747
+ Time XC Forward:  0.033106389048
+ Time XC ECUT:  0.00116213000001
+ Time XC Backward:  0.0347739733334
+ Time XC copy Vxc_add:  0.000297357619274
+ Time XC copy:  0.000751250950998
+ Time XC Forward:  0.0315204438084
+ Time XC ECUT:  0.00116921714289
+ Time XC Backward:  0.0330641695255
+ Time XC copy Vxc_add:  0.000298452381685
+ Time XC allreduce:  0.000650713809591
+ Time XC localVxc+=Vxc_add:  0.000211819526157
+call libxc for Exc -630.124297451
+ Time for computing Exc in the global domain is 0.165208701907 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0673795238108
+ Time for computing Vhart in the global domain is 0.0707338799984 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00203829047678 [s]
+
+ Fourdot: times 0.0448317342853
+ Gemm: times 0.0290682347622
+ times Allreduce 0.000235931427596
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.16706938381 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110008290503
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000155750472913
+ Time for iterAxpy      = 1  timeAxpy       = 8.89852381079e-05
+ Time for iterOther     = 1  timeOther      = 2.79762025457e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.122528761905 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083278882e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.133273880001 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.134990952858 [s]
+
+Comm already end in DM compute -27646.1473444
+
+direction: 0 back ik times:0.00622586190366
+direction: 0 backward FFT times:0.0327765347611
+direction: 1 back ik times:0.00623768857258
+direction: 1 backward FFT times:0.0321524614264
+GradDensity times: 0.0820460885734
+
+
+Allreduce Time: 0.000436152859038
+
+Allreduce Time: 0.0037861866731
+DM construct times: 0.801629894286
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00345880809618 [s]
+
+ Time for calling pbexsr 0.0064524833324 [s]
+
+ Time for calling the HSE XC kernel is 0.0134574095246 [s]
+
+ Time XC copy:  0.000753636668378
+ Time XC Forward:  0.0387103152389
+ Time XC ECUT:  0.00116782904661
+ Time XC Backward:  0.0438357947642
+ Time XC copy Vxc_add:  0.000298545714031
+ Time XC copy:  0.000751282856072
+ Time XC Forward:  0.0376433223828
+ Time XC ECUT:  0.0011627652384
+ Time XC Backward:  0.0400030376186
+ Time XC copy Vxc_add:  0.000299486189761
+ Time XC allreduce:  0.000649279045319
+ Time XC localVxc+=Vxc_add:  0.00021187571474
+call libxc for Exc -629.471556046
+ Time for computing Exc in the global domain is 0.193114066664 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0736874585709
+ Time for computing Vhart in the global domain is 0.0769485466662 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00211879761991 [s]
+
+ Fourdot: times 0.0448281561912
+ Gemm: times 0.0290691199989
+ times Allreduce 0.000233321428823
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.16863659762 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110128176166
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000566654762224
+ Time for iterAxpy      = 1  timeAxpy       = 8.67723792908e-05
+ Time for iterOther     = 1  timeOther      = 2.98238228424e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.125792474762 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083252367e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.136706355235 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.138538185714 [s]
+
+Comm already end in DM compute -27650.5131226
+
+direction: 0 back ik times:0.00624524952218
+direction: 0 backward FFT times:0.0377707395237
+direction: 1 back ik times:0.00636832476084
+direction: 1 backward FFT times:0.0352036195254
+GradDensity times: 0.0902190961933
+
+
+Allreduce Time: 0.00369693571338
+
+Allreduce Time: 0.00703456714473
+DM construct times: 0.798822975717
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00350190999961 [s]
+
+ Time for calling pbexsr 0.00645514905045 [s]
+
+ Time for calling the HSE XC kernel is 0.0134712580948 [s]
+
+ Time XC copy:  0.000757570000133
+ Time XC Forward:  0.0321203990497
+ Time XC ECUT:  0.00116430285561
+ Time XC Backward:  0.0369245309521
+ Time XC copy Vxc_add:  0.0002977371405
+ Time XC copy:  0.000749796188757
+ Time XC Forward:  0.0303287019051
+ Time XC ECUT:  0.00132177809428
+ Time XC Backward:  0.0350528280942
+ Time XC copy Vxc_add:  0.000298508093692
+ Time XC allreduce:  0.000683980473696
+ Time XC localVxc+=Vxc_add:  0.000212672857742
+call libxc for Exc -629.472290298
+ Time for computing Exc in the global domain is 0.168704696189 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0676301447602
+ Time for computing Vhart in the global domain is 0.0709729309528 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00200371999745 [s]
+
+ Fourdot: times 0.0447973004775
+ Gemm: times 0.0290682342857
+ times Allreduce 0.000235585237533
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.166988844765 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110007676194
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000124903333926
+ Time for iterAxpy      = 1  timeAxpy       = 8.5211431724e-05
+ Time for iterOther     = 1  timeOther      = 2.53904727288e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.12472458 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083265625e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.135956322381 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.137526042381 [s]
+
+Comm already end in DM compute -27654.8569242
+Dx: -281253.645894         Dy: -344193.574346         Dz -3943281.26862          
+
+*********************************************************************
+Energy
+*********************************************************************
+
+Time:  0  fs
+DensityTime:    9.02891922286  s
+Times Ham vector:  0.924941751429  s
+Times Update:   0.249089534285   s
+Times Dipole:   0.00214697333286   s
+Times Vext:     0.00508690190691   s
+Times Construct Ham:  6.83657852095   s
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + Evdw
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+! EfreeHarris     = +4.840875431546e+06[au]  
+! Etot            = +2.012338669906e+08[ev]  
+! Efree           = +7.395208210689e+06[au]  
+! Evdw            = +0.000000000000e+00[au]  
+! Fermi           = +1.107100000000e-01[au]  
+
+ Time for RK4 a cycle = 17.5446908 s.
+
+TFLOPS RK4: 323057.606773
+
+TFLOPS RK4 times: 17.5465862243
+
+TFLOPS percentage RK4: 0.48858436064
+
+
+direction: 0 back ik times:0.00562567761881
+direction: 0 backward FFT times:0.0306366095247
+direction: 1 back ik times:0.00669967904832
+direction: 1 backward FFT times:0.0316214923805
+GradDensity times: 0.0793966585697
+
+
+Allreduce Time: 0.0119543380933
+
+Allreduce Time: 0.0155949099972
+DM construct times: 0.846183689526
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00340079142916 [s]
+
+ Time for calling pbexsr 0.00630178047504 [s]
+
+ Time for calling the HSE XC kernel is 0.0131515209541 [s]
+
+ Time XC copy:  0.000731658095901
+ Time XC Forward:  0.0368660847635
+ Time XC ECUT:  0.00116609618999
+ Time XC Backward:  0.0411423838086
+ Time XC copy Vxc_add:  0.000293014760246
+ Time XC copy:  0.000693298574333
+ Time XC Forward:  0.0383339276195
+ Time XC ECUT:  0.00119533666657
+ Time XC Backward:  0.040993920953
+ Time XC copy Vxc_add:  0.000297065715131
+ Time XC allreduce:  0.000553231428057
+ Time XC localVxc+=Vxc_add:  0.000210540474654
+call libxc for Exc -636.025169326
+ Time for computing Exc in the global domain is 0.189888850953 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0861411276164
+ Time for computing Vhart in the global domain is 0.0894215585722 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00202966428697 [s]
+
+ Fourdot: times 0.0448352533349
+ Gemm: times 0.0290683433341
+ times Allreduce 0.000224524763325
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.170841802381 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0109891190441
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000491861905175
+ Time for iterAxpy      = 1  timeAxpy       = 8.71604752319e-05
+ Time for iterOther     = 1  timeOther      = 2.61047534877e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.122806092379 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083265625e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.129192843335 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.130546448097 [s]
+
+Comm already end in DM compute -27659.4234558
+
+direction: 0 back ik times:0.00562874285606
+direction: 0 backward FFT times:0.042631803808
+direction: 1 back ik times:0.00672813714118
+direction: 1 backward FFT times:0.0380623842866
+GradDensity times: 0.0981165861886
+
+
+Allreduce Time: 0.0230898652371
+
+Allreduce Time: 0.0266794109521
+DM construct times: 0.817029835238
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00339962428552 [s]
+
+ Time for calling pbexsr 0.00631234666798 [s]
+
+ Time for calling the HSE XC kernel is 0.0132274738098 [s]
+
+ Time XC copy:  0.000726297144865
+ Time XC Forward:  0.0350659942851
+ Time XC ECUT:  0.00119393666682
+ Time XC Backward:  0.0388138314265
+ Time XC copy Vxc_add:  0.000294602858048
+ Time XC copy:  0.000693526668329
+ Time XC Forward:  0.0359624666671
+ Time XC ECUT:  0.00116206714301
+ Time XC Backward:  0.0375022823791
+ Time XC copy Vxc_add:  0.000294833811495
+ Time XC allreduce:  0.000549437620066
+ Time XC localVxc+=Vxc_add:  0.000213490002352
+call libxc for Exc -632.664156483
+ Time for computing Exc in the global domain is 0.180948862857 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0695070561887
+ Time for computing Vhart in the global domain is 0.0728293238099 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00200248571491 [s]
+
+ Fourdot: times 0.0448213238124
+ Gemm: times 0.0290658528575
+ times Allreduce 0.000217459997657
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.166399781905 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110057771417
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 6.3137140387e-05
+ Time for iterAxpy      = 1  timeAxpy       = 8.60228574311e-05
+ Time for iterOther     = 1  timeOther      = 2.53714460996e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.120778981905 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083278882e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.132030257144 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.133648963809 [s]
+
+Comm already end in DM compute -27663.767807
+
+direction: 0 back ik times:0.00562411380815
+direction: 0 backward FFT times:0.0345729914297
+direction: 1 back ik times:0.00672511761877
+direction: 1 backward FFT times:0.0337727490478
+GradDensity times: 0.0863847566652
+
+
+Allreduce Time: 0.00245581095442
+
+Allreduce Time: 0.00605562952842
+DM construct times: 0.808437311429
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00340271285677 [s]
+
+ Time for calling pbexsr 0.00630745809394 [s]
+
+ Time for calling the HSE XC kernel is 0.0146542014299 [s]
+
+ Time XC copy:  0.000763522381021
+ Time XC Forward:  0.0287047176171
+ Time XC ECUT:  0.00116341380999
+ Time XC Backward:  0.0323934080952
+ Time XC copy Vxc_add:  0.00029523523699
+ Time XC copy:  0.000693077141477
+ Time XC Forward:  0.0286556252395
+ Time XC ECUT:  0.00116837142923
+ Time XC Backward:  0.0329722838105
+ Time XC copy Vxc_add:  0.000298625713185
+ Time XC allreduce:  0.000523007143784
+ Time XC localVxc+=Vxc_add:  0.000209294761589
+call libxc for Exc -632.983862276
+ Time for computing Exc in the global domain is 0.15689679714 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0665625438087
+ Time for computing Vhart in the global domain is 0.0698645209523 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00200219523686 [s]
+
+ Fourdot: times 0.0448175190504
+ Gemm: times 0.0290669599999
+ times Allreduce 0.000219056189962
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.168725015716 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110036742881
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.00117854571363
+ Time for iterAxpy      = 1  timeAxpy       = 8.54609534144e-05
+ Time for iterOther     = 1  timeOther      = 3.0933333619e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.123569577143 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083252367e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.134873847619 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.136756649525 [s]
+
+Comm already end in DM compute -27668.0929074
+
+direction: 0 back ik times:0.00564744143048
+direction: 0 backward FFT times:0.030908563811
+direction: 1 back ik times:0.0067292266649
+direction: 1 backward FFT times:0.0346490619049
+GradDensity times: 0.0828842847623
+
+
+Allreduce Time: 0.00572713190195
+
+Allreduce Time: 0.00944802380036
+DM construct times: 0.79188876857
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00340609476189 [s]
+
+ Time for calling pbexsr 0.0063121133353 [s]
+
+ Time for calling the HSE XC kernel is 0.0132747890457 [s]
+
+ Time XC copy:  0.000727269045456
+ Time XC Forward:  0.0313200385717
+ Time XC ECUT:  0.001170065716
+ Time XC Backward:  0.0353042738097
+ Time XC copy Vxc_add:  0.000292660952255
+ Time XC copy:  0.00069369571429
+ Time XC Forward:  0.0322577390471
+ Time XC ECUT:  0.00116681571308
+ Time XC Backward:  0.0316758400004
+ Time XC copy Vxc_add:  0.000298175713397
+ Time XC allreduce:  0.000546913808648
+ Time XC localVxc+=Vxc_add:  0.000211145714275
+call libxc for Exc -634.672119785
+ Time for computing Exc in the global domain is 0.164058800001 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0654936590472
+ Time for computing Vhart in the global domain is 0.0688231466665 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00200523809326 [s]
+
+ Fourdot: times 0.0448163733345
+ Gemm: times 0.0290680333346
+ times Allreduce 0.000222390473937
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.166833528572 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0109947528545
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000601729047048
+ Time for iterAxpy      = 1  timeAxpy       = 8.49685711728e-05
+ Time for iterOther     = 1  timeOther      = 2.53666439676e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.12299384857 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083265624e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.133966781905 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.135941121429 [s]
+
+Comm already end in DM compute -27672.4227012
+Dx: -281253.645894         Dy: -344193.574346         Dz -3943281.26862          
+
+*********************************************************************
+Energy
+*********************************************************************
+
+Time:  2.4188843e-07  fs
+DensityTime:    9.02809348048  s
+Times Ham vector:  0.925425856189  s
+Times Update:   0.24940218238   s
+Times Dipole:   0.00182789571409   s
+Times Vext:     0.00505668951882   s
+Times Construct Ham:  6.84405874428   s
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + Evdw
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+! EfreeHarris     = +4.840875431546e+06[au]  
+! Etot            = +2.012338669906e+08[ev]  
+! Efree           = +7.395208210689e+06[au]  
+! Evdw            = +0.000000000000e+00[au]  
+! Fermi           = +1.107100000000e-01[au]  
+
+ Time for RK4 a cycle = 17.5466232667 s.
+
+TFLOPS RK4: 323060.158892
+
+TFLOPS RK4 times: 17.5485051529
+
+TFLOPS percentage RK4: 0.488534793292
+
+
+direction: 0 back ik times:0.00672187857344
+direction: 0 backward FFT times:0.0343278157125
+direction: 1 back ik times:0.00671609714118
+direction: 1 backward FFT times:0.0347067395232
+GradDensity times: 0.0875531095226
+
+
+Allreduce Time: 0.000439157622168
+
+Allreduce Time: 0.00392805000592
+DM construct times: 0.807921204763
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00339868476294 [s]
+
+ Time for calling pbexsr 0.00631796333619 [s]
+
+ Time for calling the HSE XC kernel is 0.0129523404757 [s]
+
+ Time XC copy:  0.000760232382163
+ Time XC Forward:  0.0311447309505
+ Time XC ECUT:  0.00116310095109
+ Time XC Backward:  0.0317369295262
+ Time XC copy Vxc_add:  0.000296417143545
+ Time XC copy:  0.000727473809093
+ Time XC Forward:  0.0288519852365
+ Time XC ECUT:  0.00116397952297
+ Time XC Backward:  0.0308881028577
+ Time XC copy Vxc_add:  0.000300943334878
+ Time XC allreduce:  0.000509237615915
+ Time XC localVxc+=Vxc_add:  0.000210544287256
+call libxc for Exc -623.182630382
+ Time for computing Exc in the global domain is 0.153630243811 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0586525757135
+ Time for computing Vhart in the global domain is 0.061856362383 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00199541190523 [s]
+
+ Fourdot: times 0.0448354147593
+ Gemm: times 0.0290666747605
+ times Allreduce 0.000190597620531
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.166680683807 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110179047624
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000998915238597
+ Time for iterAxpy      = 1  timeAxpy       = 8.62233355292e-05
+ Time for iterOther     = 1  timeOther      = 3.12095289701e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.12372622238 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083265624e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.130056655715 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.131379744289 [s]
+
+Comm already end in DM compute -27676.9264688
+
+direction: 0 back ik times:0.00672191619014
+direction: 0 backward FFT times:0.0298417923805
+direction: 1 back ik times:0.00669683476372
+direction: 1 backward FFT times:0.0290734400005
+GradDensity times: 0.0776466052375
+
+
+Allreduce Time: 0.00176038952122
+
+Allreduce Time: 0.00526762237132
+DM construct times: 0.804035250952
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00341446095263 [s]
+
+ Time for calling pbexsr 0.00631945190617 [s]
+
+ Time for calling the HSE XC kernel is 0.0140684142862 [s]
+
+ Time XC copy:  0.000760120477935
+ Time XC Forward:  0.0355222409526
+ Time XC ECUT:  0.00116694571261
+ Time XC Backward:  0.0378716595224
+ Time XC copy Vxc_add:  0.000299002378597
+ Time XC copy:  0.000724630477634
+ Time XC Forward:  0.0366746471409
+ Time XC ECUT:  0.00116431904826
+ Time XC Backward:  0.0357069138117
+ Time XC copy Vxc_add:  0.000300079049339
+ Time XC allreduce:  0.000551783330593
+ Time XC localVxc+=Vxc_add:  0.000211436665268
+call libxc for Exc -624.612759555
+ Time for computing Exc in the global domain is 0.179568790001 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.068630491427
+ Time for computing Vhart in the global domain is 0.0719888833301 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00199447857085 [s]
+
+ Fourdot: times 0.0450416061904
+ Gemm: times 0.0290675314282
+ times Allreduce 0.000188130001334
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.168038199998 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.011008438094
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.00022154666658
+ Time for iterAxpy      = 1  timeAxpy       = 8.81219057192e-05
+ Time for iterOther     = 1  timeOther      = 3.14524004352e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.124757758094 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083278880e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.135921078574 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.137725426666 [s]
+
+Comm already end in DM compute -27681.2544334
+
+direction: 0 back ik times:0.00671597428664
+direction: 0 backward FFT times:0.0349635985731
+direction: 1 back ik times:0.00667788381179
+direction: 1 backward FFT times:0.0333963952398
+GradDensity times: 0.0867685699995
+
+
+Allreduce Time: 0.00109244952182
+
+Allreduce Time: 0.00459151189352
+DM construct times: 0.803385287621
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00341496571127 [s]
+
+ Time for calling pbexsr 0.00630899952375 [s]
+
+ Time for calling the HSE XC kernel is 0.0132565795211 [s]
+
+ Time XC copy:  0.000762113810197
+ Time XC Forward:  0.0309332009529
+ Time XC ECUT:  0.00116634190272
+ Time XC Backward:  0.0351324723815
+ Time XC copy Vxc_add:  0.000298541428492
+ Time XC copy:  0.000724562381947
+ Time XC Forward:  0.0369184228548
+ Time XC ECUT:  0.00116164285646
+ Time XC Backward:  0.0433870657143
+ Time XC copy Vxc_add:  0.000302869524603
+ Time XC allreduce:  0.000543943333469
+ Time XC localVxc+=Vxc_add:  0.000211233334994
+call libxc for Exc -624.678270291
+ Time for computing Exc in the global domain is 0.179079810954 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0775040261906
+ Time for computing Vhart in the global domain is 0.0807764414276 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00269985809427 [s]
+
+ Fourdot: times 0.0448222699997
+ Gemm: times 0.0290665095235
+ times Allreduce 0.000189501428395
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.16779079381 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110242723749
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000182761905307
+ Time for iterAxpy      = 1  timeAxpy       = 8.72847631399e-05
+ Time for iterOther     = 1  timeOther      = 2.67619179795e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.123407633808 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083252366e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.134275353808 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.135984279048 [s]
+
+Comm already end in DM compute -27685.6106821
+
+direction: 0 back ik times:0.00672000618943
+direction: 0 backward FFT times:0.0371806657167
+direction: 1 back ik times:0.00668168142874
+direction: 1 backward FFT times:0.0340292642832
+GradDensity times: 0.0898028885713
+
+
+Allreduce Time: 0.00607964476148
+
+Allreduce Time: 0.00957494047907
+DM construct times: 0.818340399997
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00340191666692 [s]
+
+ Time for calling pbexsr 0.00631755380891 [s]
+
+ Time for calling the HSE XC kernel is 0.0132672533327 [s]
+
+ Time XC copy:  0.000759755235777
+ Time XC Forward:  0.0363188385709
+ Time XC ECUT:  0.00116524999976
+ Time XC Backward:  0.0424606023807
+ Time XC copy Vxc_add:  0.000299212857499
+ Time XC copy:  0.000723560002371
+ Time XC Forward:  0.0361845209518
+ Time XC ECUT:  0.00116435047312
+ Time XC Backward:  0.0378048461898
+ Time XC copy Vxc_add:  0.000300945237541
+ Time XC allreduce:  0.000539916189155
+ Time XC localVxc+=Vxc_add:  0.00021007333271
+call libxc for Exc -624.480258797
+ Time for computing Exc in the global domain is 0.185256579527 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0738388561876
+ Time for computing Vhart in the global domain is 0.0771547138102 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00200384809432 [s]
+
+ Fourdot: times 0.0448007066661
+ Gemm: times 0.0290682857121
+ times Allreduce 0.00020282571495
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.169975520002 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110099985686
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000310988096317
+ Time for iterAxpy      = 1  timeAxpy       = 8.99595252122e-05
+ Time for iterOther     = 1  timeOther      = 2.55809572991e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.122855276666 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083265622e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.133724940475 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.135384895715 [s]
+
+Comm already end in DM compute -27689.9754177
+Dx: -281253.645894         Dy: -344193.574345         Dz -3943281.26862          
+
+*********************************************************************
+Energy
+*********************************************************************
+
+Time:  4.8377686e-07  fs
+DensityTime:    9.0251009819  s
+Times Ham vector:  0.92491345714  s
+Times Update:   0.249324361899   s
+Times Dipole:   0.00228503618928   s
+Times Vext:     0.00506582238449   s
+Times Construct Ham:  6.83709259001   s
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + Evdw
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+! EfreeHarris     = +4.840875431546e+06[au]  
+! Etot            = +2.012338669906e+08[ev]  
+! Efree           = +7.395208210689e+06[au]  
+! Evdw            = +0.000000000000e+00[au]  
+! Fermi           = +1.107100000000e-01[au]  
+
+ Time for RK4 a cycle = 17.5327754071 s.
+
+TFLOPS RK4: 323060.158892
+
+TFLOPS RK4 times: 17.5346260676
+
+TFLOPS percentage RK4: 0.488921480525
+
+
+direction: 0 back ik times:0.00670956999966
+direction: 0 backward FFT times:0.0354762319039
+direction: 1 back ik times:0.00568374095383
+direction: 1 backward FFT times:0.0375188204744
+GradDensity times: 0.0901371
+
+
+Allreduce Time: 0.000953848571953
+
+Allreduce Time: 0.00434233761553
+DM construct times: 0.810512237618
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00361597476149 [s]
+
+ Time for calling pbexsr 0.00639631285958 [s]
+
+ Time for calling the HSE XC kernel is 0.0135039057168 [s]
+
+ Time XC copy:  0.00069828476262
+ Time XC Forward:  0.0283694461905
+ Time XC ECUT:  0.00116060523942
+ Time XC Backward:  0.0308852847593
+ Time XC copy Vxc_add:  0.00029692714088
+ Time XC copy:  0.000701017615938
+ Time XC Forward:  0.0295057161893
+ Time XC ECUT:  0.00117018952369
+ Time XC Backward:  0.0349491771412
+ Time XC copy Vxc_add:  0.000299907620501
+ Time XC allreduce:  0.000703609526681
+ Time XC localVxc+=Vxc_add:  0.000219192854274
+call libxc for Exc -619.681932536
+ Time for computing Exc in the global domain is 0.157074147617 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.069987954761
+ Time for computing Vhart in the global domain is 0.0732500533304 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.002933469048 [s]
+
+ Fourdot: times 0.0448357928581
+ Gemm: times 0.0290673861928
+ times Allreduce 0.000231269521464
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.169120434763 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110172819077
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000220850000915
+ Time for iterAxpy      = 1  timeAxpy       = 8.63795248733e-05
+ Time for iterOther     = 1  timeOther      = 3.27618909068e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.122449935239 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083265622e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.129073821907 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.130430331905 [s]
+
+Comm already end in DM compute -27694.5005459
+
+direction: 0 back ik times:0.00673398571234
+direction: 0 backward FFT times:0.0321166714275
+direction: 1 back ik times:0.00567867809514
+direction: 1 backward FFT times:0.0314648266649
+GradDensity times: 0.0809383480955
+
+
+Allreduce Time: 0.0100569080932
+
+Allreduce Time: 0.013452204279
+DM construct times: 0.792772487144
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00361794142736 [s]
+
+ Time for calling pbexsr 0.00638439856994 [s]
+
+ Time for calling the HSE XC kernel is 0.0134628971427 [s]
+
+ Time XC copy:  0.000702864286723
+ Time XC Forward:  0.0385619309527
+ Time XC ECUT:  0.00119322761748
+ Time XC Backward:  0.0441152023814
+ Time XC copy Vxc_add:  0.000295200952678
+ Time XC copy:  0.000703420475475
+ Time XC Forward:  0.0355665576171
+ Time XC ECUT:  0.001160849999
+ Time XC Backward:  0.0382710714293
+ Time XC copy Vxc_add:  0.000296426664136
+ Time XC allreduce:  0.000705768572516
+ Time XC localVxc+=Vxc_add:  0.000218170000153
+call libxc for Exc -619.893265349
+ Time for computing Exc in the global domain is 0.189727065714 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0720767738094
+ Time for computing Vhart in the global domain is 0.0753682799987 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00353950809586 [s]
+
+ Fourdot: times 0.0448465685695
+ Gemm: times 0.0290675790493
+ times Allreduce 0.00022887047453
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.168694421904 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.011023772855
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.00124093571139
+ Time for iterAxpy      = 1  timeAxpy       = 8.69919058459e-05
+ Time for iterOther     = 1  timeOther      = 2.62237881543e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.124461901905 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083278879e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.135704476666 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.137461268096 [s]
+
+Comm already end in DM compute -27698.8458325
+
+direction: 0 back ik times:0.00674970190448
+direction: 0 backward FFT times:0.0385884123789
+direction: 1 back ik times:0.00568210333586
+direction: 1 backward FFT times:0.0359726185707
+GradDensity times: 0.0918735095256
+
+
+Allreduce Time: 0.00476650571727
+
+Allreduce Time: 0.00815267238795
+DM construct times: 0.793387421905
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00362135190153 [s]
+
+ Time for calling pbexsr 0.00639710190444 [s]
+
+ Time for calling the HSE XC kernel is 0.0134743371418 [s]
+
+ Time XC copy:  0.000702030476532
+ Time XC Forward:  0.0339202171417
+ Time XC ECUT:  0.0011652561916
+ Time XC Backward:  0.0367287757144
+ Time XC copy Vxc_add:  0.000297612379654
+ Time XC copy:  0.000705350001226
+ Time XC Forward:  0.0296440166676
+ Time XC ECUT:  0.00116225714373
+ Time XC Backward:  0.0334551261913
+ Time XC copy Vxc_add:  0.000298448092508
+ Time XC allreduce:  0.000714048568625
+ Time XC localVxc+=Vxc_add:  0.000219088571612
+call libxc for Exc -619.686570892
+ Time for computing Exc in the global domain is 0.167849444759 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0633617728599
+ Time for computing Vhart in the global domain is 0.0666048461899 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00200067428523 [s]
+
+ Fourdot: times 0.0448602919059
+ Gemm: times 0.0290678771416
+ times Allreduce 0.000242855712713
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.166523089523 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110172042841
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 7.77295244916e-05
+ Time for iterAxpy      = 1  timeAxpy       = 8.5632858827e-05
+ Time for iterOther     = 1  timeOther      = 2.92761978926e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.119935898572 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083252364e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.130725127143 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.132429907622 [s]
+
+Comm already end in DM compute -27703.1765942
+
+direction: 0 back ik times:0.00673697809543
+direction: 0 backward FFT times:0.0314852366682
+direction: 1 back ik times:0.0056416390471
+direction: 1 backward FFT times:0.0326672376214
+GradDensity times: 0.0814392890497
+
+
+Allreduce Time: 0.0115449295226
+
+Allreduce Time: 0.0149396452398
+DM construct times: 0.803755390476
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00362500952542 [s]
+
+ Time for calling pbexsr 0.00639309428516 [s]
+
+ Time for calling the HSE XC kernel is 0.0139110928576 [s]
+
+ Time XC copy:  0.000702399047441
+ Time XC Forward:  0.0306931852392
+ Time XC ECUT:  0.00116384857392
+ Time XC Backward:  0.0397831466653
+ Time XC copy Vxc_add:  0.000296607144264
+ Time XC copy:  0.000737392856536
+ Time XC Forward:  0.0378141709552
+ Time XC ECUT:  0.00116472761874
+ Time XC Backward:  0.0400658447616
+ Time XC copy Vxc_add:  0.000298749047943
+ Time XC allreduce:  0.000719239047612
+ Time XC localVxc+=Vxc_add:  0.00021750857195
+call libxc for Exc -619.943307468
+ Time for computing Exc in the global domain is 0.182177139526 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0731927419038
+ Time for computing Vhart in the global domain is 0.0765029952381 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00233964857034 [s]
+
+ Fourdot: times 0.0448060604758
+ Gemm: times 0.0290685023829
+ times Allreduce 0.000234477618505
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.169340880002 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110099919038
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000406518094678
+ Time for iterAxpy      = 1  timeAxpy       = 8.60357140482e-05
+ Time for iterOther     = 1  timeOther      = 2.60952219833e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.124306911905 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083265620e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.135200164761 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.136906250002 [s]
+
+Comm already end in DM compute -27707.5300135
+Dx: -281253.645894         Dy: -344193.574343         Dz -3943281.26863          
+
+*********************************************************************
+Energy
+*********************************************************************
+
+Time:  7.2566529e-07  fs
+DensityTime:    9.02442317285  s
+Times Ham vector:  0.924816010483  s
+Times Update:   0.249835715709   s
+Times Dipole:   0.00382409714439   s
+Times Vext:     0.00509812762175   s
+Times Construct Ham:  6.83805564858   s
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + Evdw
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+! EfreeHarris     = +4.840875431546e+06[au]  
+! Etot            = +2.012338669906e+08[ev]  
+! Efree           = +7.395208210689e+06[au]  
+! Evdw            = +0.000000000000e+00[au]  
+! Fermi           = +1.107100000000e-01[au]  
+
+ Time for RK4 a cycle = 17.5392193357 s.
+
+TFLOPS RK4: 323060.158892
+
+TFLOPS RK4 times: 17.5410469929
+
+TFLOPS percentage RK4: 0.488742510121
+
+
+direction: 0 back ik times:0.00674197238186
+direction: 0 backward FFT times:0.0431671442857
+direction: 1 back ik times:0.0056801323808
+direction: 1 backward FFT times:0.0365309538101
+GradDensity times: 0.0973993299995
+
+
+Allreduce Time: 0.00755096571447
+
+Allreduce Time: 0.0107401861897
+DM construct times: 0.819607329999
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.0034481466646 [s]
+
+ Time for calling pbexsr 0.00646757428694 [s]
+
+ Time for calling the HSE XC kernel is 0.013516619525 [s]
+
+ Time XC copy:  0.000753939522838
+ Time XC Forward:  0.0359990376164
+ Time XC ECUT:  0.00116422000065
+ Time XC Backward:  0.0398325309543
+ Time XC copy Vxc_add:  0.000298349044897
+ Time XC copy:  0.00073381571201
+ Time XC Forward:  0.0356643476189
+ Time XC ECUT:  0.00116560381139
+ Time XC Backward:  0.0379462619057
+ Time XC copy Vxc_add:  0.000300735715427
+ Time XC allreduce:  0.000644222858682
+ Time XC localVxc+=Vxc_add:  0.000211349524761
+call libxc for Exc -623.035841574
+ Time for computing Exc in the global domain is 0.183172028097 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.067581574287
+ Time for computing Vhart in the global domain is 0.0708731042832 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00199674285614 [s]
+
+ Fourdot: times 0.0448244376166
+ Gemm: times 0.0290674166645
+ times Allreduce 0.0001736971426
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.168227650953 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110003823793
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 9.97128554445e-05
+ Time for iterAxpy      = 1  timeAxpy       = 8.6347143224e-05
+ Time for iterOther     = 1  timeOther      = 2.87381044473e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.120321711904 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083265620e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.126859301905 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.128266787622 [s]
+
+Comm already end in DM compute -27712.0839997
+
+direction: 0 back ik times:0.0067065871408
+direction: 0 backward FFT times:0.0357511042857
+direction: 1 back ik times:0.00567033476182
+direction: 1 backward FFT times:0.0398961466672
+GradDensity times: 0.0932495857123
+
+
+Allreduce Time: 0.00361105476259
+
+Allreduce Time: 0.00678751762462
+DM construct times: 0.817613648571
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00344186190341 [s]
+
+ Time for calling pbexsr 0.00646679475904 [s]
+
+ Time for calling the HSE XC kernel is 0.0135634652397 [s]
+
+ Time XC copy:  0.000752862855734
+ Time XC Forward:  0.0319703476198
+ Time XC ECUT:  0.00119692523731
+ Time XC Backward:  0.032609962378
+ Time XC copy Vxc_add:  0.000297238573694
+ Time XC copy:  0.000714073808922
+ Time XC Forward:  0.0300935199994
+ Time XC ECUT:  0.00119935761904
+ Time XC Backward:  0.0336454700009
+ Time XC copy Vxc_add:  0.000298910003039
+ Time XC allreduce:  0.000641407619696
+ Time XC localVxc+=Vxc_add:  0.00020991666679
+call libxc for Exc -622.606856417
+ Time for computing Exc in the global domain is 0.161973937145 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0678138319054
+ Time for computing Vhart in the global domain is 0.0711007857135 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00199832666476 [s]
+
+ Fourdot: times 0.0449108847642
+ Gemm: times 0.0290700576188
+ times Allreduce 0.000173535237991
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.168187027622 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110040842883
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.00137959524
+ Time for iterAxpy      = 1  timeAxpy       = 8.47628580232e-05
+ Time for iterOther     = 1  timeOther      = 2.55475970334e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.124240250003 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083278876e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.135431094761 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.137106241429 [s]
+
+Comm already end in DM compute -27716.406332
+
+direction: 0 back ik times:0.00673480809564
+direction: 0 backward FFT times:0.0303217538094
+direction: 1 back ik times:0.00631306333162
+direction: 1 backward FFT times:0.0349704985747
+GradDensity times: 0.0834232795241
+
+
+Allreduce Time: 0.000430002382927
+
+Allreduce Time: 0.00361838286699
+DM construct times: 0.816686400951
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00345015523999 [s]
+
+ Time for calling pbexsr 0.00647171333185 [s]
+
+ Time for calling the HSE XC kernel is 0.0141407466654 [s]
+
+ Time XC copy:  0.000730780953745
+ Time XC Forward:  0.031098232379
+ Time XC ECUT:  0.00116309857185
+ Time XC Backward:  0.0338063009513
+ Time XC copy Vxc_add:  0.000295355239359
+ Time XC copy:  0.000715075235348
+ Time XC Forward:  0.0320156776179
+ Time XC ECUT:  0.00116614904982
+ Time XC Backward:  0.0321136680977
+ Time XC copy Vxc_add:  0.000297935715935
+ Time XC allreduce:  0.000648530953185
+ Time XC localVxc+=Vxc_add:  0.000212800001464
+call libxc for Exc -622.558722831
+ Time for computing Exc in the global domain is 0.162866533334 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0639431585732
+ Time for computing Vhart in the global domain is 0.0672162376177 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00200095523905 [s]
+
+ Fourdot: times 0.0448047404752
+ Gemm: times 0.0290683009516
+ times Allreduce 0.000170449045982
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.167061008095 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110007714284
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000455390949355
+ Time for iterAxpy      = 1  timeAxpy       = 8.82890453795e-05
+ Time for iterOther     = 1  timeOther      = 2.58761792793e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.121875301906 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083252361e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.132601316192 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.134452381906 [s]
+
+Comm already end in DM compute -27720.7264954
+
+direction: 0 back ik times:0.00673638666922
+direction: 0 backward FFT times:0.0284959033343
+direction: 1 back ik times:0.00567943619171
+direction: 1 backward FFT times:0.0300148823808
+GradDensity times: 0.0760287542835
+
+
+Allreduce Time: 0.0039119528592
+
+Allreduce Time: 0.00713248953252
+DM construct times: 0.808228177146
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00345052761986 [s]
+
+ Time for calling pbexsr 0.00647858999946 [s]
+
+ Time for calling the HSE XC kernel is 0.0142427285718 [s]
+
+ Time XC copy:  0.000731355237804
+ Time XC Forward:  0.0362966352404
+ Time XC ECUT:  0.00116896285908
+ Time XC Backward:  0.0373906504756
+ Time XC copy Vxc_add:  0.000295448568068
+ Time XC copy:  0.000733003809728
+ Time XC Forward:  0.0321457176215
+ Time XC ECUT:  0.00116490237997
+ Time XC Backward:  0.0333305733329
+ Time XC copy Vxc_add:  0.000298193808703
+ Time XC allreduce:  0.000636936667433
+ Time XC localVxc+=Vxc_add:  0.000211026665056
+call libxc for Exc -622.819438942
+ Time for computing Exc in the global domain is 0.173321074762 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0662350571401
+ Time for computing Vhart in the global domain is 0.0695107090469 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.0020008966676 [s]
+
+ Fourdot: times 0.0449393152412
+ Gemm: times 0.0290674176176
+ times Allreduce 0.000172061427293
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.166635998572 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0110011257129
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.00075604238009
+ Time for iterAxpy      = 1  timeAxpy       = 8.62890447024e-05
+ Time for iterOther     = 1  timeOther      = 2.6309498935e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.121487262382 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083265617e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.132704796193 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.134453596191 [s]
+
+Comm already end in DM compute -27725.0530484
+Dx: -281253.645894         Dy: -344193.574341         Dz -3943281.26863          
+
+*********************************************************************
+Energy
+*********************************************************************
+
+Time:  9.6755372e-07  fs
+DensityTime:    9.02364848858  s
+Times Ham vector:  0.924934306666  s
+Times Update:   0.24898109047   s
+Times Dipole:   0.0035763585729   s
+Times Vext:     0.00509479047832   s
+Times Construct Ham:  6.80611824857   s
+NOTE:  Ecor  = Exc - EVxc - Ehart - Eself + Evdw
+       Etot  = Ekin + Ecor
+       Efree = Etot    + Entropy
+
+! EfreeHarris     = +4.840875431546e+06[au]  
+! Etot            = +2.012338669906e+08[ev]  
+! Efree           = +7.395208210689e+06[au]  
+! Evdw            = +0.000000000000e+00[au]  
+! Fermi           = +1.107100000000e-01[au]  
+
+ Time for RK4 a cycle = 17.5041822471 s.
+
+TFLOPS RK4: 323060.158892
+
+TFLOPS RK4 times: 17.5060703733
+
+TFLOPS percentage RK4: 0.489719003443
+
+
+direction: 0 back ik times:0.00670946333412
+direction: 0 backward FFT times:0.0315064752394
+direction: 1 back ik times:0.00565491190719
+direction: 1 backward FFT times:0.0324125671395
+GradDensity times: 0.0812437871427
+
+
+Allreduce Time: 0.000413876190578
+
+Allreduce Time: 0.00360953094787
+DM construct times: 0.809708502857
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00345665714485 [s]
+
+ Time for calling pbexsr 0.00644818809451 [s]
+
+ Time for calling the HSE XC kernel is 0.0135555185698 [s]
+
+ Time XC copy:  0.000751810952352
+ Time XC Forward:  0.0352493585706
+ Time XC ECUT:  0.00116374190475
+ Time XC Backward:  0.0373239128567
+ Time XC copy Vxc_add:  0.000295360001473
+ Time XC copy:  0.000715151429176
+ Time XC Forward:  0.0329016342876
+ Time XC ECUT:  0.00116522095414
+ Time XC Backward:  0.0377597890511
+ Time XC copy Vxc_add:  0.000297839047562
+ Time XC allreduce:  0.000646338095976
+ Time XC localVxc+=Vxc_add:  0.000247284762736
+call libxc for Exc -621.82107217
+ Time for computing Exc in the global domain is 0.176498355238 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0667571071426
+ Time for computing Vhart in the global domain is 0.0702473804777 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00199676761986 [s]
+
+ Fourdot: times 0.0448068671431
+ Gemm: times 0.0290690152397
+ times Allreduce 0.000188297144632
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.166864605715 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0109976714266
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 5.2495241107e-05
+ Time for iterAxpy      = 1  timeAxpy       = 8.56133301568e-05
+ Time for iterOther     = 1  timeOther      = 3.04143031826e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.121245623333 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083265617e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.127626239999 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.128930003335 [s]
+
+Comm already end in DM compute -27729.5851205
+
+direction: 0 back ik times:0.00670617095238
+direction: 0 backward FFT times:0.0361334109512
+direction: 1 back ik times:0.00568125095015
+direction: 1 backward FFT times:0.0337508790471
+GradDensity times: 0.0871380342833
+
+
+Allreduce Time: 0.00695560857275
+
+Allreduce Time: 0.0101378604741
+DM construct times: 0.824981798571
+
+ DGDFT call LIBXC for PBE XC - external Short X 
+ Time for calling VGCExc 0.00344929095081 [s]
+
+ Time for calling pbexsr 0.00642941333354 [s]
+
+ Time for calling the HSE XC kernel is 0.01343478333 [s]
+
+ Time XC copy:  0.000780215716077
+ Time XC Forward:  0.0309805066645
+ Time XC ECUT:  0.00116304857147
+ Time XC Backward:  0.0368019747621
+ Time XC copy Vxc_add:  0.000297300477541
+ Time XC copy:  0.00071628142905
+ Time XC Forward:  0.031834026664
+ Time XC ECUT:  0.0011675333335
+ Time XC Backward:  0.0379799033326
+ Time XC copy Vxc_add:  0.000299871429888
+ Time XC allreduce:  0.000677129522956
+ Time XC localVxc+=Vxc_add:  0.000210666668863
+call libxc for Exc -621.948940202
+ Time for computing Exc in the global domain is 0.17037277095 [s]
+
+ Time for iterFFT    = 2  timeFFT      = 0.0756746980951
+ Time for computing Vhart in the global domain is 0.0789231428571 [s]
+
+ Time for updating the local potential in the extended element and the element is 0.00200303285601 [s]
+
+ Fourdot: times 0.0448854204769
+ Gemm: times 0.029066641906
+ times Allreduce 0.000183801905223
+ isHybrid_ 1 isEXXActive_ 1
+ Time for UpdateDGMatrix:   0.167417455712 [s]
+
+ Start HFX ISDF calculations 
+ Time for iterGemmT     = 4  timeGemmT      = 0.0109955614244
+ Time for iterRow2Col   = 0  timeTrans      = 0
+ Time for iterAllreduce = 1  timeAllreduce  = 0.000464212858788
+ Time for iterAxpy      = 1  timeAxpy       = 8.65814290592e-05
+ Time for iterOther     = 1  timeOther      = 2.72143006441e-06
+ HFX-ISDF: Time for HFX matrix and energy 0.12152529143 [s]
+
+  Results obtained from DGHFX: 
+Fock energy       = -5.871083278873e+03[au]  
+
+ HFX-ISDF: Time for HFX without interElement communication 0.132389759048 [s]
+InnerSCF: Time for constructing the DGHFX matrix is 0.134096865237 [s]
+
+Comm already end in DM compute -27733.9135656
